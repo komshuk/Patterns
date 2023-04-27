@@ -28,8 +28,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
     testImplementation 'com.codeborne:selenide:6.12.3'
 
-    implementation 'com.github.javafaker:javafaker:1.0.0'
-    implementation 'io.qameta.allure:allure-selenide:2.21.0'
+    testImplementation 'com.github.javafaker:javafaker:1.0.0'
+    testImplementation 'io.qameta.allure:allure-selenide:2.21.0'
 }
 
 test {
